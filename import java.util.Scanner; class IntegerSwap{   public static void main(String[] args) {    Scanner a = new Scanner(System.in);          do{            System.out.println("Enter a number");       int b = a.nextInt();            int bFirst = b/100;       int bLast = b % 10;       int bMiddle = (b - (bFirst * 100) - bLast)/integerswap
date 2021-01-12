@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class IntegerSwap{
+  public static void main(String[] args) {
+   Scanner a = new Scanner(System.in);
+    
+    do{
+    
+      System.out.println("Enter a number");
+      int b = a.nextInt();
+    
+      int bFirst = b / 100;
+      int bLast = b % 10;
+      int bMiddle = (b - (bFirst * 100) - bLast) / 10; 
+  
+      System.out.println(bFirst + "" + bLast + "" + bMiddle);
+      
+    }while(1==1);
+    
+  }
+
+}
